@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<FPTAptech xmlns="http://xmlpowercorp"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://xmlpowercorp DoIt.xsd">
+    <Student>
+        <Name>
+            <FName>I Am Me</FName>
+            <LName>Me Am I</LName>
+        </Name>
+        <Age>15</Age>
+    </Student>
+</FPTAptech>
