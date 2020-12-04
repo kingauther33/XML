@@ -2,7 +2,7 @@
 /shelf/
 /workspace.xml
 # Datasource local storage ignored files
-/../../../../../../:\Documents\HK2\JSON_XML\TestXML\.idea/dataSources/
+/../../../../../:\Documents\HK2\JSON_XML\.idea/dataSources/
 /dataSources.local.xml
 # Zeppelin ignored files
 /ZeppelinRemoteNotebooks/
