@@ -1,0 +1,9 @@
+{
+  "Name" : "AnDink",
+  "Course" : "JSON Read for File",
+  "Subjects" : [
+    "subject1: Json introduction",
+    "subject2: JSON Syntax",
+    "subject3: JSON read file"
+  ]
+}

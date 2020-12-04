@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            targetNamespace="http://xmlpowercorp"
+            xmlns="http://xmlpowercorp"
+            elementFormDefault="qualified">
+    <xsd:element name="FPTAptech" type="FPTAptech"/>
+    <xsd:complexType name="FPTAptech">
+        <xsd:sequence>
+            <xsd:element name="Student" type="Student" maxOccurs="unbounded"/>
+        </xsd:sequence>
+    </xsd:complexType>
+    <xsd:complexType name="Student">
+        <xsd:sequence>
+            <xsd:element name="Name" type="FullName"/>
+            <xsd:element name="Age">
+                <xsd:simpleType>
+                    <xsd:restriction base="xsd:integer">
+                        <xsd:minExclusive value="14"/>
+                    </xsd:restriction>
+                </xsd:simpleType>
+            </xsd:element>
+        </xsd:sequence>
+        <xsd:attribute name="Sex">
+            <xsd:simpleType>
+                <xsd:restriction base="xsd:string">
+                    <xsd:enumeration value="Male"/>
+                    <xsd:enumeration value="FeMale"/>
+                </xsd:restriction>
+            </xsd:simpleType>
+        </xsd:attribute>
+    </xsd:complexType>
+    <xsd:complexType name="FullName">
+        <xsd:sequence>
+            <xsd:element name="FName" type="xsd:string"/>
+            <xsd:element name="LName" type="xsd:string"/>
+        </xsd:sequence>
+    </xsd:complexType>
+</xsd:schema>

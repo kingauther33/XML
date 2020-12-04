@@ -1,0 +1,5 @@
+<!ELEMENT codelean (to, form, subject, message)>
+<!ELEMENT to (#PCDATA)>
+<!ELEMENT form (#PCDATA)>
+<!ELEMENT subject (#PCDATA)>
+<!ELEMENT message (#PCDATA)>

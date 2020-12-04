@@ -1,0 +1,24 @@
+2. Why is the following XML document not well-formed?
+<?xml version = "1.0" standalone="yes"?>
+<employee>
+    <name>Frank</name>
+    <position>Chef</position>
+</employee>
+<employee>
+    <name>Ronnie</name>
+    <position>Chef</position>
+</employee>
+
+- Do co 2 tag 'employee' nen file xml ko co phan tu goc ( root )
+
+3. Why is the following XML document not well-formed?
+<?xml version = "1.0" standalone="yes"?>
+<employee>
+    <kitchen_staff/>
+    <name language=en>Frank</name>
+    <new_hire />
+    <position language=en>Chef</position>
+</employee>
+
+- Gia tri cua thuoc tinh (Attribute) 'langugage' ko de trong ngoac kep hoac ngoac don
+nen xay ra loi, file ko dung quy dinh
